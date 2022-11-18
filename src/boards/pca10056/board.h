@@ -31,14 +31,14 @@
 /* LED
  *------------------------------------------------------------------*/
 #define LEDS_NUMBER         1
-#define LED_PRIMARY_PIN     _PINNUM(1, 11) // Blue
+#define LED_PRIMARY_PIN     _PINNUM(0, 8) // Blue
 #define LED_STATE_ON        1
 
 /*------------------------------------------------------------------*/
 /* BUTTON
  *------------------------------------------------------------------*/
 #define BUTTONS_NUMBER      2
-#define BUTTON_1            _PINNUM(1, 1)
+#define BUTTON_1            _PINNUM(1, 5)
 #define BUTTON_2            _PINNUM(1, 3)
 #define BUTTON_PULL         NRF_GPIO_PIN_PULLUP
 
@@ -57,8 +57,8 @@
 #define USB_DESC_UF2_PID       0x0029
 #define USB_DESC_CDC_ONLY_PID  0x0029
 
-#define UF2_PRODUCT_NAME    "Blade-nRF52840"
-#define UF2_BOARD_ID        "blade-nRF52840-pca10056-v1"
+#define UF2_PRODUCT_NAME    "MiniTB-nRF52840"
+#define UF2_BOARD_ID        "minitb-nRF52840-pca10056-v1"
 #define UF2_INDEX_URL       "https://www.nordicsemi.com/Software-and-Tools/Development-Kits/nRF52840-DK"
 
 #endif // PCA10056_H
